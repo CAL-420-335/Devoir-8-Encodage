@@ -1,4 +1,6 @@
-package org.INF335;
+package org.INF335.Serialization;
+
+import org.INF335.ReadWriteBuffer;
 
 import java.nio.charset.StandardCharsets;
 import java.time.LocalDate;
@@ -133,4 +135,7 @@ public class Encodage {
         rw.read(stringBuffer);
         return new String(stringBuffer, StandardCharsets.UTF_8);
     }
+
+
+
 }

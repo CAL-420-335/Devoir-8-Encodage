@@ -1,6 +1,8 @@
-package org.INF335;
+package org.INF335.Serialization;
 
 import junit.framework.TestCase;
+import org.INF335.ReadWriteBuffer;
+import org.INF335.Serialization.Encodage;
 import org.junit.Test;
 
 public class EncodageTest extends TestCase {
